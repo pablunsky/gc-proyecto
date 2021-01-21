@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+  <div class="col-md-6 px-0" id="que">
+    <h1 class="display-4 font-italic">
+      Clasificación de GCR por medio de regresión lineal
+    </h1>
+    <p class="lead my-3">
+      Por medio de algoritmos de inteligencia artificial y la definición de un método de representación de juego de
+      caos, es posible...
+    </p>
+    <p class="lead mb-0">
+      <a href="#como" class="text-white fw-bold">Saber más...</a>
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8">
+    <h3 class="pb-4 mb-4 font-italic border-bottom">
+      De Guatemala, para el mundo...
+    </h3>
+    <article class="blog-post">
+      <h2 class="blog-post-title">
+        Carga de archivo
+      </h2>
+      <p class="blog-post-meta">
+        Enero, 2021
+      </p>
+      <p>
+        A continuación, proceda a cargar un archivo FASTA para conocer la clasificación de acuerdo a la regresión
+        entrenada...
+      </p>
+      <div class="container">
+        <p>
+          Seleccione un archivo
+        </p>
+        <input type="file" id="fileChooser" style="display: none;" />
+        <button class="btn btn-dark" onclick="cargarArchivo()">Seleccionar
+          archivos</button>
+      </div>
+      <hr />
+      <div class="container">
+        <div id="picture">
+
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="col-md-4">
+    <div class="p-4 mb-3 bg-light rounded">
+      <h4 class="font-italic">
+        Acerca de
+      </h4>
+      <p class="mb-0">
+        El siguiente trabajo fue realizado como proyecto de programación para el curso...
+      </p>
+    </div>
+    <div class="p-4">
+      <h4 class="font-italic">
+        Recursos
+      </h4>
+      <ol class="list-unstyled">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Documentación</a></li>
+        <li><a href="#">Base de datos</a></li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  var fileChooser = document.getElementById('fileChooser');
+
+  if (fileChooser)
+    fileChooser.addEventListener("change", leerArchivo)
+
+  async function leerArchivo()
+  {
+    let reader = new FileReader();
+
+    reader.onload = function ()
+    {
+      let data = {
+        name: fileChooser.files[0].name,
+        data: reader.result.replace('data:', '')
+          .replace(/^.+,/, '')
+      }
+
+      fetch('/uploadFile', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      }).then(res =>
+      {
+        res.json().then(data =>
+        {
+          document.getElementById("picture").innerHTML = `<img src="${data.heat.replace("b'", "data:application/octet-stream;base64,").slice(0, -1)}" alt="Archivo cargado"/>
+          <br/>
+          <img src="${data.scatter.replace("b'", "data:application/octet-stream;base64,").slice(0, -1)}" alt="Archivo cargado"/>`
+        });
+      });
+
+    }
+    reader.onerror = function (error)
+    {
+      console.log('Error: ', error);
+    };
+
+    reader.readAsDataURL(fileChooser.files[0]);
+  }
+
+  function cargarArchivo()
+  {
+    fileChooser.click();
+  }
+
+</script>
+{% endblock %}
