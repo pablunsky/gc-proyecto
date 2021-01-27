@@ -28,68 +28,7 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 <h2> Resultados
 </h2>
 
-![Tux, the Linux mascot](/assets/images/tux.png)
     
-\end{figure}
-}% 
-{\setlength\intextsep{0pt}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = \linewidth ]{REGRESION DENGUE.png}
-    \caption{Resultados Comparación Dengue}
-    \label{exp3}
-\end{figure}
-}% 
-
-\subsection*{Zika}
-{\setlength\intextsep{0pt}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = \linewidth ]{ZIKA-nuccoreKU321639.1.fasta.jpg}
-    \caption{Mapa de Calor CGR Zika}
-    \label{exp3}
-\end{figure}
-}% 
-{\setlength\intextsep{0pt}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = \linewidth ]{REGRESION ZIKA.png}
-    \caption{Resultados Comparación Zika}
-    \label{exp3}
-\end{figure}
-}% 
-
-
-
-
-
-
-
-\subsection*{chikungunya}
-
-{\setlength\intextsep{0pt}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = \linewidth ]{CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg}
-    \caption{Mapa de Calor CGR chikungunya}
-    \label{exp3}
-\end{figure}
-}% 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = \linewidth ]{REGRESION CHIKUNGUNYA.png}
-    \caption{Resultados Comparación chikungunya}
-    \label{exp3}
-\end{figure}
-
-
-
-
-
-
-
-
 
 
 
