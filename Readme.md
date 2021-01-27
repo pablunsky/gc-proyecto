@@ -39,8 +39,8 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/REGRESION%20CHIKUNGUNYA.png) | 
 |:--:| 
 | *Resultado del Modelo para Chinkungunya* |
-| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
-|:--:| 
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/SCATTER%20CHIKUNGUNYA.png) | 
+|Scatter Chinkungunya| 
 
 
 
@@ -61,8 +61,8 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 
  <br />
  
-| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
-|:--:| 
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/SCATTER%20DENGUE.png) | 
+|Scatter Dengue| 
 
 <h3> Zika
 </h3>
@@ -76,8 +76,8 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 |:--:| 
 | *Resultado del Modelo para Zika* |
  <br />
-| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/ZIKA-nuccoreKU321639.1.fasta.jpg) | 
-|:--:| 
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/SCATTER%20ZIKA.png) | 
+|Scatter Zika| 
 
 
 
