@@ -28,7 +28,9 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 <h2> Resultados
 </h2>
 
-![Mapa de Calor del CGR Chinkungunya](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) *Mapa de Calor del CGR Chinkungunya*
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
+|:--:| 
+| *Space* |
     
 
 
