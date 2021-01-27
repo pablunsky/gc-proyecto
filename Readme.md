@@ -43,22 +43,7 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 |:--:| 
 
 
-<h3> Chinkungunya
-</h3>
- <br />
 
-| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
-|:--:| 
-| *Mapa de Calor de la CGR de Chinkungunya* |
-     <br />
-| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/REGRESION%20CHIKUNGUNYA.png) | 
-|:--:| 
-| *Resultado del Modelo para Chinkungunya* |
- <br />
-| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
-|:--:| 
-
- <br />
  
 <h3> Dengue
 </h3>
