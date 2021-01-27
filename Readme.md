@@ -22,13 +22,16 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 </p>
 <h2> Diagrama Metodológico
 </h2>
-
+ <br />
 
 
 <h2> Resultados
 </h2>
+ <br />
 <h3> Chinkungunya
 </h3>
+ <br />
+
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
 |:--:| 
 | *Mapa de Calor de la CGR de Chinkungunya* |
@@ -40,16 +43,56 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 |:--:| 
 
 
-| *Chinkungunya* |
+<h3> Chinkungunya
+</h3>
+ <br />
+
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
 |:--:| 
-| *Space* |
+| *Mapa de Calor de la CGR de Chinkungunya* |
+     <br />
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/REGRESION%20CHIKUNGUNYA.png) | 
+|:--:| 
+| *Resultado del Modelo para Chinkungunya* |
+ <br />
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
 |:--:| 
-| *Space* |
+
+ <br />
+ 
+<h3> Dengue
+</h3>
+ <br />
+
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/DENGUE-nuccoreAF309641.1.fasta.jpg) | 
+|:--:| 
+| *Mapa de Calor de la CGR del Dengue* |
+
+     <br />
+     
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/REGRESION%20DENGUE.png) | 
+|:--:| 
+| *Resultado del Modelo para Dengue* |
+
+ <br />
+ 
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
 |:--:| 
-| *Space* |
+
+<h3> Zika
+</h3>
+ <br />
+
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/DENGUE-nuccoreAF309641.1.fasta.jpg) | 
+|:--:| 
+| *Mapa de Calor de la CGR de Zika* |
+     <br />
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/REGRESION%20ZIKA.png) | 
+|:--:| 
+| *Resultado del Modelo para Zika* |
+ <br />
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/ZIKA-nuccoreKU321639.1.fasta.jpg) | 
+|:--:| 
 
 
 
