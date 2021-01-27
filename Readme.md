@@ -55,7 +55,7 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 
      
      
-| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/SCATTER%20DENGUE.png) | 
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/REGRESION%20DENGUE.png) | 
 |:--:| 
 | *Resultado del Modelo para Dengue* |
 <br />
