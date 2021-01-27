@@ -53,7 +53,7 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 |:--:| 
 | *Mapa de Calor de la CGR del Dengue* |
 
-     <br />
+     
      
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/REGRESION%20DENGUE.png) | 
 |:--:| 
@@ -71,7 +71,7 @@ Javier de León, Pablo Hernandez, Luis Pablo Kuri
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/DENGUE-nuccoreAF309641.1.fasta.jpg) | 
 |:--:| 
 | *Mapa de Calor de la CGR de Zika* |
-     <br />
+     
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/REGRESION%20ZIKA.png) | 
 |:--:| 
 | *Resultado del Modelo para Zika* |
