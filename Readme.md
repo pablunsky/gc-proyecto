@@ -1,5 +1,5 @@
 <h1>
-Clasificación de genomas de los virus, Dengue, Zika y chikungunya empleando CGR y Regresión Logística 
+Clasificación de genomas de Arbovivirus: Dengue, Zika y Chikungunya empleando CGR y Regresión Logística 
 </h1>
 
 Javier de León, Pablo Hernandez, Luis Pablo Kuri
