@@ -29,7 +29,7 @@ Las enfermedades causadas por arbovirus poseen prevalencia zonas tropicales y su
 <h2> Diagrama Metodológico
 </h2>
 
-| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/CHIKUNGUNYA-nuccoreEU372006.1.fasta.jpg) | 
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/diagrama.png) | 
 |:--:| 
 | *Mapa de Calor de la CGR de Chinkungunya* |
 
