@@ -28,7 +28,10 @@ Las enfermedades causadas por arbovirus poseen prevalencia zonas tropicales y su
 </p>
 <h2> Diagrama Metodológico
 </h2>
-![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/diagrama.png)
+| ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/diagrama.png)| 
+|:--:| 
+| *Diagrama* |
+
 
  <br />
 
@@ -95,7 +98,7 @@ Las enfermedades causadas por arbovirus poseen prevalencia zonas tropicales y su
 </h2>
 
 
-<p> El estudio de las firmas genéticas de los virus estudiados mediante regresiones logísticas producen exitosamente un modelo con el cual es posible realizar su clasificación.
+<p> La utilización de las firmas genéticas de los virus estudiados, producen exitosamente un modelo mediante regresiones logísticas con el cual es posible realizar su clasificación.
 
 </p>
 
