@@ -105,6 +105,15 @@ Las enfermedades causadas por arbovirus poseen prevalencia zonas tropicales y su
 
 
 <h2> Referencias
+ https://www.youtube.com/watch?v=3m5MGvCX3nI&list=PLE0_iBOs1R0kf4_6D_UyMPFZvgDEKj0rH&index=30
+ <br />
+ http://epidemiologia.mspas.gob.gt/files/Publicaciones%202018/Protocolos/Vigilancia%20Epidemiol%C3%B3gica%20Integrada%20de%20Arbovirosis.pdf
+ <br />
+ https://www.ncbi.nlm.nih.gov/nuccore/?term=Chikungunya+virus+complete+genome
+ <br />
+ https://www.ncbi.nlm.nih.gov/nuccore/?term=zika+complete+genome
+ <br />
+ https://www.ncbi.nlm.nih.gov/nuccore/?term=dengue+virus+complete+genome
 </h2>
 
 
