@@ -1,0 +1,7 @@
+data/*.hdf5
+__pycache__
+*.jpg
+*.png
+modelos.zika
+modelos.chikungunya
+modelos.dengue
