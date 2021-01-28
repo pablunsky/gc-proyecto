@@ -28,6 +28,8 @@ Las enfermedades causadas por arbovirus poseen prevalencia zonas tropicales y su
 </p>
 <h2> Diagrama Metodológico
 </h2>
+![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/diagrama.png)
+
  <br />
 
 
