@@ -57,14 +57,20 @@ class CGR:
 
         plt.clf()
         plt.imshow(heatmap.T, extent=extent, origin='lower')
-        plt.savefig('testplot_heat.png')
+        plt.savefig('show_heat.png')
 
         plt.clf()
         plt.scatter(x, y, s=0.01)
-        plt.savefig('testplot_scatter.png')
-        plt.pause(3)
+        plt.savefig('show_scatter.png')
+
+        plt.clf()
+        plt.imshow(heatmap.T, extent=extent, origin='lower')
+        plt.axis('off')
+        plt.savefig('eval_heat.jpg', bbox_inches='tight')
+
         plt.close()
-        #Image.open('testplot.png').save('testplot.jpg', 'JPEG')
+
+        return True
 
     def pmedio(self, t1, t2):
         x1, y1 = t1

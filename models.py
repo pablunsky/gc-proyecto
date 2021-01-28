@@ -1,11 +1,11 @@
 import numpy as np
 import cv2
-from script.regression.regression import generate_model, get_models
+from script.regression.regression import generate_model
 import sys
 
-generate_model('data/zika.hdf5',
-               'Zika', False, int(sys.argv[1]), 'modelos.zika', False)
-
+generate_model('data/dengue.hdf5',
+               'Dengue', False, int(sys.argv[1]), 'modelos.dengue1', False)
+exit()
 addr = "zika.jpg"
 img = cv2.imread(addr)
 img = cv2.resize(img, (389, 389), interpolation=cv2.INTER_CUBIC)

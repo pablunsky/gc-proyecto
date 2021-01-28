@@ -59,8 +59,8 @@ def generate_model(dataset, tag, ONLY_SHOW, index, binary_file, read):
     #model2 = Model(train_set, test_set, reg=True, alpha=0.0001, lam=150)
     # model2.training()
 
-    model3 = Model(train_set, test_set, reg=False, alpha=0.001, lam=0)
-    model3.training()
+    #model3 = Model(train_set, test_set, reg=False, alpha=0.001, lam=0)
+    # model3.training()
 
     # model4 = Model(train_set, test_set, reg=True, alpha=0.001,
     #               lam=150)
@@ -69,11 +69,11 @@ def generate_model(dataset, tag, ONLY_SHOW, index, binary_file, read):
     #model5 = Model(train_set, test_set, reg=True, alpha=0.001, lam=200)
     # model5.training()
 
-    models = [model1, model3]  # , model3, model4, model5]
-    Plotter.show_Model(models)
+    # models = [model1, model3]  # , model3, model4, model5]
+    # Plotter.show_Model(models)
 
     with open(binary_file, 'wb') as f:
-        pickle.dump(models, f)
+        pickle.dump(model1, f)
 
 
 # generate_model('DataFactory/datasets/ufm.hdf5',
@@ -86,19 +86,10 @@ def generate_model(dataset, tag, ONLY_SHOW, index, binary_file, read):
 #               'UMG', False, 4, 'modelos.umg', True)
 
 
-def get_models():
+def evaluate(file, data):
+    models = None
 
-    models_chik = None
-    models_zika = None
-    models_dengue = None
+    with open(file, 'rb') as f:
+        models = pickle.load(f)
 
-    with open('modelos.chikungunya', 'rb') as f:
-        models_chik = pickle.load(f)
-
-    with open('modelos.zika', 'rb') as f:
-        models_zika = pickle.load(f)
-
-    with open('modelos.dengue', 'rb') as f:
-        models_dengue = pickle.load(f)
-
-    return models_chik, models_dengue, models_zika
+    return models.predict(data)
