@@ -31,7 +31,7 @@ Las enfermedades causadas por arbovirus poseen prevalencia zonas tropicales y su
 
 | ![space-1.jpg](https://github.com/pablunsky/gc-proyecto/blob/master/New%20folder%20(6)/diagrama.png) | 
 |:--:| 
-| *Mapa de Calor de la CGR de Chinkungunya* |
+
 
 
  <br />
@@ -99,7 +99,7 @@ Las enfermedades causadas por arbovirus poseen prevalencia zonas tropicales y su
 </h2>
 
 
-<p> La utilización de las firmas genéticas de los virus estudiados, producen exitosamente un modelo mediante regresiones logísticas con el cual es posible realizar su clasificación.
+<p> Las firmas genéticas de los virus utilizados pueden emplearse para la creación de un modelo de CGR y regresión logística el cual permita su clasificación.
 
 </p>
 
