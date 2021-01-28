@@ -99,7 +99,7 @@ Las enfermedades causadas por arbovirus poseen prevalencia zonas tropicales y su
 </h2>
 
 
-<p> Las firmas genéticas de los virus utilizados pueden emplearse para la creación de un modelo de CGR y regresión logística el cual permita su clasificación.
+<p> Las firmas genéticas de los virus utilizados pueden emplearse para la creación de un modelo de CGR y regresión logística el cual permite la clasificación de los virus.
 
 </p>
 
